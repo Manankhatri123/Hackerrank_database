@@ -1,0 +1,4 @@
+
+select distinct city 
+from station 
+WHERE CITY REGEXP '^[bcdfghjklmnpqrstvwxyz].*[abcdefghijklmnopqrstuvwxyz]$'
